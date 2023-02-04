@@ -1,5 +1,11 @@
 package Controller;
 
+import static org.mockito.ArgumentMatchers.nullable;
+
+import java.util.Scanner;
+
+import Model.Account;
+import Service.Service;
 import io.javalin.Javalin;
 import io.javalin.http.Context;
 
@@ -16,7 +22,40 @@ public class SocialMediaController {
      */
     public Javalin startAPI() {
         Javalin app = Javalin.create();
-        app.get("example-endpoint", this::exampleHandler);
+        app.start(8080);
+        /*app.get("example-endpoint", this::exampleHandler);*/
+       
+        app.post("/register", ctx -> {
+            String username = "";
+            String password = "";
+            Scanner sc = new Scanner(System.in);
+            System.out.print("Enter a username: ");
+            username = sc.nextLine();
+            System.out.print("\n");
+            System.out.print("Enter a Password: ");
+            password = sc.nextLine();
+            System.out.print("\n");
+
+            Account account = new Account();
+            account.setUsername(username);
+            account.setPassword(password);
+
+            Service service = new Service();
+            
+           Account acc = service.insertAccountIntoDatabase(account);
+
+           if(acc == null)
+           {
+             ctx.status(400);
+           }
+           else
+           {
+             ctx.status(200);
+           }
+
+            
+
+        });
 
         return app;
     }
@@ -28,6 +67,8 @@ public class SocialMediaController {
     private void exampleHandler(Context context) {
         context.json("sample text");
     }
+
+
 
 
 }
