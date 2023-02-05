@@ -26,6 +26,11 @@ public class Service {
        }
     }
 
+    public Boolean checkInfo(String username, String password)
+    {
+       
+    }
+
 
 
 
