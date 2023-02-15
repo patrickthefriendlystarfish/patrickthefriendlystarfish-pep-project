@@ -29,7 +29,7 @@ In else
 In else
 In rs.next()
 {"account_id":1,"username":"user","password":"password"}
-[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.451 s - in AuthIntegrationTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.444 s - in AuthIntegrationTest
 [INFO] Running MessagingIntegrationTest
 In createmessageHandler()
 Match found returning true;
@@ -102,7 +102,7 @@ Match found returning true;
 In createmessageHandler()
 Match found returning true;
 1
-[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.77 s - in MessagingIntegrationTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.639 s - in MessagingIntegrationTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -111,6 +111,6 @@ Match found returning true;
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  37.160 s
-[INFO] Finished at: 2023-02-15T19:56:59Z
+[INFO] Total time:  34.724 s
+[INFO] Finished at: 2023-02-15T20:03:50Z
 [INFO] ------------------------------------------------------------------------
