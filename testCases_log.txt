@@ -9,9 +9,7 @@
 [INFO] Copying 1 resource
 [INFO] 
 [INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Challenges ---
-[INFO] Changes detected - recompiling the module!
-[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
-[INFO] Compiling 9 source files to /workspace/patrickthefriendlystarfish-pep-project/target/classes
+[INFO] Nothing to compile - all classes are up to date
 [INFO] 
 [INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Challenges ---
 [WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
@@ -31,7 +29,7 @@ In else
 In else
 In rs.next()
 {"account_id":1,"username":"user","password":"password"}
-[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.03 s - in AuthIntegrationTest
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.938 s - in AuthIntegrationTest
 [INFO] Running MessagingIntegrationTest
 In createmessageHandler()
 Match found returning true;
@@ -104,7 +102,7 @@ Match found returning true;
 In createmessageHandler()
 Match found returning true;
 1
-[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.911 s - in MessagingIntegrationTest
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.669 s - in MessagingIntegrationTest
 [INFO] 
 [INFO] Results:
 [INFO] 
@@ -113,6 +111,6 @@ Match found returning true;
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  41.795 s
-[INFO] Finished at: 2023-02-14T19:24:26Z
+[INFO] Total time:  36.518 s
+[INFO] Finished at: 2023-02-15T19:48:59Z
 [INFO] ------------------------------------------------------------------------
