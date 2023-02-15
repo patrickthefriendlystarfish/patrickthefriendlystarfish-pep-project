@@ -212,8 +212,6 @@ public class SocialMediaController {
             
         }
 
-
-
     }
 
     private void deleteMessagehandler(Context ctx) throws JsonProcessingException

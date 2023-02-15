@@ -1,0 +1,118 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------------< org.revature:Challenges >-----------------------
+[INFO] Building Challenges 1.1
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ Challenges ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ Challenges ---
+[INFO] Changes detected - recompiling the module!
+[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 9 source files to /workspace/patrickthefriendlystarfish-pep-project/target/classes
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ Challenges ---
+[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /workspace/patrickthefriendlystarfish-pep-project/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ Challenges ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:3.0.0-M7:test (default-test) @ Challenges ---
+[INFO] Using configured provider org.apache.maven.surefire.junitcore.JUnitCoreProvider
+[INFO] 
+[INFO] -------------------------------------------------------
+[INFO]  T E S T S
+[INFO] -------------------------------------------------------
+[INFO] Running AuthIntegrationTest
+In else
+In else
+In rs.next()
+{"account_id":1,"username":"user","password":"password"}
+[INFO] Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.03 s - in AuthIntegrationTest
+[INFO] Running MessagingIntegrationTest
+In createmessageHandler()
+Match found returning true;
+1
+in deleteMessageHandler()
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+2
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+2
+[{"message_id":1,"posted_by":1,"message_text":"hello message","time_posted_epoch":1669947792},{"message_id":2,"posted_by":1,"message_text":"message 2","time_posted_epoch":1669947792}]
+In createmessageHandler()
+Match found returning true;
+1
+in deleteMessageHandler()
+Message to Be deleted:{"message_id":1,"posted_by":1,"message_text":"hello message","time_posted_epoch":1669947792}
+Message not null
+In createmessageHandler()
+Match not found. Returning false;
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+1
+[]
+In createmessageHandler()
+Match found returning true;
+1
+in deleteMessageHandler()
+Message to Be deleted:{"message_id":1,"posted_by":1,"message_text":"hello message","time_posted_epoch":1669947792}
+Message not null
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+2
+In createmessageHandler()
+Match found returning true;
+1
+In createmessageHandler()
+Match found returning true;
+1
+[INFO] Tests run: 20, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 20.911 s - in MessagingIntegrationTest
+[INFO] 
+[INFO] Results:
+[INFO] 
+[INFO] Tests run: 27, Failures: 0, Errors: 0, Skipped: 0
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  41.795 s
+[INFO] Finished at: 2023-02-14T19:24:26Z
+[INFO] ------------------------------------------------------------------------
