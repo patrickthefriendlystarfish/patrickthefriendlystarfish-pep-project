@@ -15,8 +15,8 @@ public class MessageService {
 
     public Message callCreateMessage(Message message)
     {
-       Message newmessage = messageDAO.createMessage(message);
-       return newmessage;
+        Message newmessage = messageDAO.createMessage(message);
+        return newmessage;
     }
 
    

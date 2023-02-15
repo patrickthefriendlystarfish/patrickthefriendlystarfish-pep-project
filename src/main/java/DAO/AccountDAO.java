@@ -15,7 +15,7 @@ import Util.ConnectionUtil;
 
 public class AccountDAO {
     
-    Connection conn = ConnectionUtil.getConnection();
+     Connection conn = ConnectionUtil.getConnection();
     
 
     public Boolean checkIfUsernameIsInDatabase(String username)

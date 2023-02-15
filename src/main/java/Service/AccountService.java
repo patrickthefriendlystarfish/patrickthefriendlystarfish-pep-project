@@ -13,8 +13,8 @@ import Model.Account;
 import Util.ConnectionUtil;
 
 public class AccountService {
-    private AccountDAO accountDAO;
-    Connection conn = ConnectionUtil.getConnection();
+     private AccountDAO accountDAO;
+     Connection conn = ConnectionUtil.getConnection();
 
     public AccountService()
     {

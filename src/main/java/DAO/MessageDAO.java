@@ -16,7 +16,7 @@ import Model.Message;
 import Util.ConnectionUtil;
 
 public class MessageDAO {
-    Connection conn = ConnectionUtil.getConnection();
+     Connection conn = ConnectionUtil.getConnection();
 
     public Message createMessage(Message message)
     {
